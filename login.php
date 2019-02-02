@@ -1,11 +1,6 @@
 
-
-<?php
-require_once("dbcontroller.php");
-
-
-?>
 <!doctype html>
+<!--nocitce-->
 <html lang="en">
     <head>
         <!-- Required meta tags -->
