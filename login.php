@@ -1,3 +1,12 @@
+<?php
+require_once("dbcontroller.php");
+
+
+
+
+
+?>
+
 
 <!doctype html>
 <!--nocitce-->
@@ -32,23 +41,19 @@
                                 </div>
                                 <div class="account_box bg-gradient">
                                     <img src="https://i.ibb.co/rcD7YfS/ak-white-logo.png" alt="" class="img-fluid mx-auto d-block" style="height: 42px;    margin-bottom: 15px;">
-                                    <form>
+
+                                         <form action="process.php" method="post"">
                                         <div class="col-lg-12 mt-3">
                                             <label class="text-white">Email</label>
-                                            <input type="email" id="exampleInputEmail1" class="form-control trial-input" placeholder="Email Id">
+                                            <input type="email" name="Email" class="form-control trial-input" placeholder="Email">
+                                       
                                         </div>
                                         <div class="col-lg-12 mt-3">
                                             <label class="text-white">Password</label>
-                                            <input type="password" id="password1" class="form-control trial-input" placeholder="Password">
-                                        </div>
-                                        <div class="col-lg-12 mt-3">
-                                            <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                                <label class="custom-control-label text-white" for="customCheck1">Remember me</label>
-                                            </div>
+                                            <input type="password" name="password" class="form-control trial-input" placeholder="Password">
                                         </div>
                                         <div class="col-lg-12">
-                                            <button class="btn btn-custom w-100 mt-3">Sign In</button>
+                                            <button type = "submit" class="btn btn-custom w-100 mt-3" name="Login">Sign In</button>
                                         </div>
                                         <div>
                                             <p class="mb-0 text-center mt-3"><a href="forgot.html" class="text-white font-weight-bold">Forgot your password ?</a></p>
@@ -56,7 +61,7 @@
                                     </form>
                                 </div>
                                 <div class="text-center mt-4">
-                                    <p><small class="text-white mr-2">Don't have an account ?</small> <a href="#" class="text-white font-weight-bold">Create an account</a></p>
+                                    <p><small class="text-white mr-2">Don't have an account ?</small> <a href="Signup.php" class="text-white font-weight-bold">Create an account</a></p>
                                 </div>
                             </div>
                         </div>

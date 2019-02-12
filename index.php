@@ -35,7 +35,7 @@
                         <ul class="nav navbar-nav menu_nav ml-auto">
                             <li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li>
                             <li class="nav-item active"><a class="nav-link" href="login.php">Log in</a></li> 
-                            <li class="nav-item active"><a class="nav-link" href="signup.html">Sign up</a></li>  
+                            <li class="nav-item active"><a class="nav-link" href="Signup.php">Sign up</a></li>  
                             .
                         </ul>
                     </div> 
@@ -266,7 +266,18 @@
                     <div class="col-md-6 d_flex align-items-center">
                         <div class="about_content ">
                             <h2 class="title title_color">About Us </h2>
-                            <p>DOS Resort search allows user to easily find resort in just a few clicks.</p>
+                            <p>Datu Odin Sinsuat, officially the Municipality of Datu Odin Sinsuat, is a 2nd class municipality in the province of Maguindanao, Philippines. According to the 2015 census, it has a population of 99,210 people.
+
+It is formerly known as Dinaig.
+
+In 1955, the barrio of Upi was separated from Datu Odin Sinsuat to become the town of Upi.
+
+The town's name, Dinaig, was changed to Datu Odin Sinsuat in 1994, by virtue of Muslim Mindanao Autonomy Act No. 29.
+
+The town was part of the province of Shariff Kabunsuan and served as its capital from October 2006 until its nullification by the Supreme Court in July 2008.
+
+The municipality hosts the Awang Domestic Airport that serves the province and Cotabato City.</p> &nbsp;
+<a href="https://en.wikipedia.org/wiki/Datu_Odin_Sinsuat,_Maguindanao#cite_note-PSA15–15-3"> Click here for more... <a>
                             
                         </div>
                     </div>
